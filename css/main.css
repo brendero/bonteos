@@ -1,0 +1,108 @@
+.container {
+    width: 900px;
+    margin: auto;
+}
+.top-wrapper {
+    display: flex;
+}
+.top-wrapper > img {
+    width: 50%;
+    height: auto;
+}
+.top-image-wrapper {
+    width: 85%;
+    margin: 42px;
+}
+.top-image-wrapper img {
+    width: 100%;
+}
+.top-text {
+    padding: 50px;
+}
+.road-wrapper {
+    width: 100%;
+    position: relative;
+    top:-200px;
+}
+.road-img {
+    float: right;
+    width: 54%;
+}
+.orb {
+    width: 60px;
+    height: 60px;
+    background: #3C7BD0;
+    border-radius: 100%;
+}
+.orb-wrapper {
+    width: 88%;
+    opacity: 0;
+    transition: all 368ms ease-in-out 0s;
+}
+.orb-text-wrapper {
+    width: 59%;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.orb-text {
+    font-size: 0.8em;
+    text-align: right;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid #3C7BD0;
+    position: relative;
+}
+.orb-divider {
+    color: #3C7BD0;
+    background: #3C7BD0;
+    width: 19%;
+
+}
+.orb-img {
+    width: 15%;
+    float: left;
+}
+.positioning-1 {
+    position: absolute;
+    right: 36%;
+}
+.positioning-2 {
+    position: absolute;
+    top: 718px;
+    right: -1%;
+}
+.positioning-3 {
+    position: absolute;
+    right: 1%;
+    top: 1697px;
+}
+.positioning-4 {
+    position: absolute;
+    right: -13%;
+    top: 2393px;
+}
+.positioning-5 {
+    position: absolute;
+    right: 30%;
+    top: 3045px;
+}
+
+.orb--show {
+    opacity: 1;
+    /* animation: orb-animation; */
+    transition: all 368ms ease-in-out 0s;
+}
+
+@keyframes orb-animation {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 50;
+    }
+    100% {
+        opacity: 100;
+    }
+}
